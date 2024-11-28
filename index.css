@@ -1,0 +1,132 @@
+/* Reset một số thuộc tính mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body và nền */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fa; /* Màu nền pastel sáng */
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #ffcbc1; /* Màu hồng pastel */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #5c2c2e;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #5c2c2e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #ff6f61; /* Màu khi hover */
+}
+
+/* Main content */
+main {
+  padding: 40px;
+}
+
+/* About section */
+#about {
+  background-color: #e5f4fb; /* Màu xanh pastel nhạt */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #5c2c2e;
+}
+
+/* Services section */
+#services {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.service-item {
+  background-color: #fff7e6; /* Màu vàng nhạt */
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.2rem;
+  color: #5c2c2e;
+}
+
+/* Contact section */
+#contact {
+  background-color: #fbe4d5; /* Màu hồng cam nhạt */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input, #contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #ff6f61; /* Màu cam pastel */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #f4a393; /* Màu cam đậm khi hover */
+}
+
+/* Footer */
+footer {
+  background-color: #f5f7fa;
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
